@@ -16,6 +16,10 @@ module Cuba::Assets
     @assets_dir = path
   end
 
+  def sprocket_assets_server
+    environment
+  end
+
   private
   def environment
     @environment ||= get_environment
