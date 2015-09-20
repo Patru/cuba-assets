@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   
   spec.add_dependency "cuba", "~> 3.4"
-  spec.add_dependency "sprockets", "~> 2.12.4"
-  spec.add_dependency "uglifier", "~> 2.7.2"
+  spec.add_dependency "sprockets", "~> 2.12"
+  spec.add_dependency "uglifier", "~> 2.7"
 end
